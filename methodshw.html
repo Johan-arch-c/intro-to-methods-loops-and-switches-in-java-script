@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            loops
+        </title>
+    </head>
+    <body>
+        <h9>hello</h9>
+        <p id="demo">
+        </p>
+        <script>
+            var fruits=["apple","orange","bannana","mango","grapes","water melon"];
+            var text="";
+            var i;
+            for(i=0;i<fruits.length;i++){
+                text+=fruits[i]+"<br>";
+            }
+            document.getElementById("demo").innerHTML=text;
+            var str="JoHAn";
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith("i"));
+            document.write("<br>");
+            var str1="hello my name is hello"
+            var patt=new RegExp("name");
+            var res=patt.test(str);
+            document.write(res);
+       </script>
+    </body>
+</html>
